@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(23, 82, 165, 0.89);
+    background-color: #009CA6;;
     padding: 10px 0;
     text-align: center;
 }
@@ -24,17 +24,16 @@ body {
 }
 
 .navbar-menu a:hover {
-    color: #ddd;
-}
-.header {
-    text-align: center;
-    margin: 20px 0;
+    color: #fffafa;
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 24px;
+.title {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
 }
+
 
 .content {
     display: flex;
@@ -53,9 +52,9 @@ body {
 
 .box {
     background-color: #f0f0f0;
-    border: 5px slateblue) ;
+    border: 3px solid #009CA6;
     padding: 20px;
     text-align: center;
     font-size: 16px;
-    color: #333;
+    color: #000000;
 }
