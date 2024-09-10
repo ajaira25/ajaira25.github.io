@@ -2,21 +2,60 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+.navbar {
+    background-color: rgba(23, 82, 165, 0.89);
+    padding: 10px 0;
+    text-align: center;
+}
+
 .navbar-menu {
     list-style: none;
-    display: flex;
-    gap: 15px; /* Space between links */
-    margin: 0;
     padding: 0;
-}
-
-.navbar-menu li {
     margin: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 
-.navbar-menu a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 14px; /* Adjust as needed */
-    padding: 0 10px; /* Horizontal padding */
+.navbar-menu a:hover {
+    color: #ddd;
+}
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 20px; /* Space between boxes */
+    max-width: 800px; /* Optional: Adjust based on design needs */
+    width: 100%;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border: 5px slateblue) ;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
 }
