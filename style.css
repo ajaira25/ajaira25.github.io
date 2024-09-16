@@ -97,3 +97,10 @@ body {
     font-size: 20px;
     color: #009CA6;
 }
+
+.image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Optional: make the image corners rounded */
+    /* You can also use other properties like border, box-shadow, etc. */
+}
