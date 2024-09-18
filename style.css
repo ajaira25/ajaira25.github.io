@@ -104,4 +104,10 @@ body {
     border-radius: 15px; /* Optional: make the image corners rounded */
     /* You can also use other properties like border, box-shadow, etc. */
 }
-
+.circular-image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #009CA6; /* Border color and thickness */
+    object-fit: cover; /* Ensures the image covers the area */
+}
