@@ -117,6 +117,37 @@ body {
 }
 
 
+.box-source{
+    background-color: #f0f0f0;
+    border: 3px solid #009CA6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #009CA6;
+    width: px;
+    max-height:410px;
+    padding: 20px;
+    margin-bottom: 10;
+}
+
+.box-ssmall{
+    background-color: #f0f0f0;
+    border: 2px solid #009CA6;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #009CA6;
+    max-height:410px;
+    padding: 20px;
+    margin-bottom: 10;
+}
+
 .image {
     width: 300px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
