@@ -167,4 +167,11 @@ body {
     height: 250px; /* Set the desired height */
 }
 
+.circular-image-B {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+    border: 0px solid #009CA6; /* Border color and thickness */
+    object-fit: cover; /* Ensures the image covers the area */
+}
 
