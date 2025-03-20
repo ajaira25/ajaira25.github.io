@@ -111,7 +111,7 @@ body {
     font-size: 20px;
     color: #009CA6;
     width: 1000px;
-    max-height:410px;
+    max-height:700px;
     padding: 20px;
     margin-bottom: 10;
 }
@@ -134,7 +134,7 @@ body {
     margin-bottom: 10;
 }
 
-.box-ssmall{
+.box-small{
     background-color: #f0f0f0;
     border: 2px solid #009CA6;
     display: grid;
